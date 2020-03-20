@@ -1,1 +1,1 @@
-web: gunicorn retweetwinner.wsgi
+web: gunicorn bnn_scraper.wsgi
