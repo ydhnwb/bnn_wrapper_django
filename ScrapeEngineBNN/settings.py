@@ -25,7 +25,10 @@ SECRET_KEY = '16qx0+d!qxi@3$35fxak@6$&g6=)@^fvb905l)+eipwami=k1u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'bnn-scrape-engine.herokuapp.com'
+]
 
 
 # Application definition
