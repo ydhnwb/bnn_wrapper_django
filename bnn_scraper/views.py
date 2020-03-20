@@ -5,6 +5,7 @@ from .serializers import *
 from .models import *
 from . import constants
 from selenium import webdriver
+import os
 from selenium.webdriver.chrome.options import Options
 
 
@@ -17,8 +18,8 @@ class StatisticViewSet(viewsets.ViewSet):
         self.chrome_options.add_argument('--headless')
         self.chrome_options.add_argument('--no-sandbox')
         self.chrome_options.add_argument('--disable-dev-shm-usage')
-        self.chrome_options.binary_location = constants.GOOGLE_CHROME_PATH
-        self.driver = webdriver.Chrome(executable_path=constants.CHROMEDRIVER_PATH, chrome_options= self.chrome_options)
+        self.chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+        self.driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options= self.chrome_options)
         return self.driver
 
     def scan(self, url):
