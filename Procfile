@@ -1,1 +1,1 @@
-web: gunicorn ScraperEngineBNN.wsgi
+web: gunicorn ScrapeEngineBNN.wsgi
