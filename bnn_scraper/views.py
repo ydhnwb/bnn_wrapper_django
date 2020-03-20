@@ -67,7 +67,7 @@ class StatisticViewSet(viewsets.ViewSet):
 
     @action(detail=False, methods=['post'])
     def filter(self, request):
-        return Response({'status':True, 'data': 'Contoh'})
+        return Response({'status':True, 'data': {}})
 
 
 class ProvinceViewSet(viewsets.ViewSet):

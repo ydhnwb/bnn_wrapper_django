@@ -14,6 +14,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ScrapeEngineBNN/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bnn_scraper/views.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -26,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -71,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ScrapeEngineBNN/settings.py" />
         <option value="$PROJECT_DIR$/bnn_scraper/admin.py" />
         <option value="$PROJECT_DIR$/ScrapeEngineBNN/urls.py" />
         <option value="$PROJECT_DIR$/bnn_scraper/urls.py" />
@@ -80,6 +89,7 @@
         <option value="$PROJECT_DIR$/bnn_scraper/constants.py" />
         <option value="$PROJECT_DIR$/bnn_scraper/views.py" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/ScrapeEngineBNN/settings.py" />
       </list>
     </option>
   </component>
@@ -115,6 +125,11 @@
           <expand>
             <path>
               <item name="ScrapeEngineBNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScrapeEngineBNN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScrapeEngineBNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScrapeEngineBNN" type="462c0819:PsiDirectoryNode" />
               <item name="ScrapeEngineBNN" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -324,14 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ScrapeEngineBNN/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bnn_scraper/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -390,6 +397,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapeEngineBNN/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding />
         </state>
       </provider>
