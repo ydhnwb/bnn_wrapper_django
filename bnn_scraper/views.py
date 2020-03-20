@@ -6,10 +6,10 @@ from .models import *
 from . import constants
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.support.ui import WebDriverWait
 
 
 class StatisticViewSet(viewsets.ViewSet):
+    #test
     serializer_class = StatisticSerializer
 
     def init_driver(self):
