@@ -1,0 +1,42 @@
+GOOGLE_CHROME_PATH = '/app/.apt/usr/bin/google_chrome'
+CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
+bnn_links = list()
+bnn_links.append(dict(province_name = "Aceh", url = "https://aceh.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Sumatera Utara", url = "https://sumut.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Sumatera Barat", url = "https://sumbar.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Sumatera Selatan", url = "https://sumsel.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Bengkulu", url = "https://bengkulu.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Jambi", url = "https://jambi.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Riau", url = "https://riau.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Kepulauan Riau", url = "https://kepri.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Bangka Belitung", url = "https://babel.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Lampung", url = "https://lampung.bnn.go.id/"))
+
+bnn_links.append(dict(province_name = "Banten", url = "https://banten.bnn.go.id/"))
+bnn_links.append(dict(province_name = "DKI Jakarta", url = "https://jakarta.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Jawa Barat", url = "https://jabar.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Jawa Tengah", url = "https://jateng.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Jawa Timur", url = "https://jatim.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Daerah Istimewa Yogyakarta", url = "https://yogyakarta.bnn.go.id/"))
+
+bnn_links.append(dict(province_name = "Bali", url = "https://bali.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Nusa Tenggara Timur", url = "https://ntt.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Nusa Tenggara Barat", url = "https://ntb.bnn.go.id/"))
+
+bnn_links.append(dict(province_name = "Kalimantan Selatan", url = "https://kalsel.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Kalimantan Barat", url = "https://kalbar.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Kalimantan Timur", url = "https://kaltim.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Kalimantan Tengah", url = "https://kalteng.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Kalimantan Utara", url = "https://kaltara.bnn.go.id/"))
+
+bnn_links.append(dict(province_name = "Sulawesi Selatan", url = "https://sulsel.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Sulawesi Tengah", url = "https://sulteng.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Sulawesi Tenggara", url = "https://sultra.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Sulawesi Barat", url = "https://sulbar.bnn.go.id/"))
+bnn_links.append(dict(province_name = "Sulawesi Utara", url = "https://bnn.go.id/sulawesi-utara"))
+
+bnn_links.append(dict(province_name = "Gorontalo", url = "https://gorontalo.go.id/"))
+bnn_links.append(dict(province_name = "Maluku", url = "https://maluku.go.id/"))
+bnn_links.append(dict(province_name = "Maluku Utara", url = "https://malut.go.id/"))
+bnn_links.append(dict(province_name = "Papua", url = "https://papua.go.id/"))
+bnn_links.append(dict(province_name = "Papua Barat", url = "https://papuabarat.go.id/"))
