@@ -9,7 +9,7 @@ from selenium.webdriver.chrome.options import Options
 
 
 class StatisticViewSet(viewsets.ViewSet):
-    #test with heroku
+    #test with heroku 2
     serializer_class = StatisticSerializer
 
     def init_driver(self):
